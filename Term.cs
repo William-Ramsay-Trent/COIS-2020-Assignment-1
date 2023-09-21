@@ -1,4 +1,4 @@
-﻿using System;
+﻿1using System;
 
 public class Term : IComparable
 {
@@ -56,12 +56,14 @@ public class Term : IComparable
     // Raises an ArgumentException if obj is either null or not a term
     public int CompareTo(Object obj)
     {
-
+        
     }
     // Returns a string representation of the current term
     public override string ToString()
     {
-
+        String storage;
+        storage = coefficient + "x^" + exponent;
+        return storage;
     }
 
 }//EOC
