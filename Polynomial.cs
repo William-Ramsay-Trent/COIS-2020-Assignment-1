@@ -13,19 +13,27 @@ public class Polynomial : ICloneable
 // If a term with the same exponent already exists then the two terms are added together
 // If the two terms cancel out then no new term is created
 public void AddTerm(Term t)
-    {}
+    {
+    
+    }
    
 // Adds polynomials p and q to yield a new polynomial
 public static Polynomial operator +(Polynomial p, Polynomial q)
-    {}
+    {
+    
+    }
    
 // Multiplies polynomials p and q to yield a new polynomial
 public static Polynomial operator *(Polynomial p, Polynomial q)
-    {}
+    {
+    
+    }
     
 // Evaluates the current polynomial at x and returns the result
 public double Evaluate(double x)
-    {}
+    {
+    
+    }
   
 // Creates and returns a clone of the current polynomial except that the exponents
 // of the current polynomial are assigned to the coefficients of the clone in reverse order
@@ -37,6 +45,8 @@ public Object Clone()
     
 // Prints the current polynomial
 public void Print()
-    {}
+    {
+    
+    }
    
-}
+}//EOC
